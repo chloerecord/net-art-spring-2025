@@ -1,1 +1,1 @@
-# net-art-fall-2025
+# net-art-spring-2025
