@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>The Vanishing Baker</title>
+</head>
+<body>
+    <h1>The Vanishing Baker</h1>
+    <p>You arrive at Sweet Secrets Bakery for your shift, but something is wrong. The head baker, Miss Eleanor, is missing. Her apron hangs on the wall, her ingredients are scattered, and there's a cryptic note on the counter.</p>
+    <p>What do you do?</p>
+    <ul>
+        <li><a href="kitchen.html">Check the kitchen</a></li>
+        <li><a href="storage.html">Investigate the storage room</a></li>
+        <li><a href="recipe.html">Look through her old recipe book</a></li>
+    </ul>
+</body>
+</html>
