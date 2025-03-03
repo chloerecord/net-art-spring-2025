@@ -1,0 +1,54 @@
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fff0f6;
+}
+
+.quilt-container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    gap: 5px;
+    width: 100vw;
+    height: 100vh;
+}
+
+.block {
+    width: 100%;
+    height: 100%;
+}
+
+.pink {
+    background-color: #ffb6c1; /* Light pink */
+}
+
+.purple {
+    background-color: #d8b2ff; /* Soft lavender */
+}
+
+.yellow {
+    background-color: #ffe4b5; /* Light pastel yellow */
+}
+
+.floral {
+    background-image: url('https://www.transparenttextures.com/patterns/flowers.png');
+    background-size: cover;
+}
+
+.lace {
+    background-image: url('https://www.transparenttextures.com/patterns/lace.png');
+    background-size: cover;
+}
+
+.heart {
+    background-image: url('https://i.imgur.com/V98HTok.png'); /* Cute heart pattern */
+    background-size: cover;
+}
