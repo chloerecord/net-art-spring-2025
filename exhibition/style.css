@@ -1,0 +1,58 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #fff0f6;
+    color: #333;
+  }
+  
+  header {
+    background-color: #ffc0cb;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .curator {
+    font-style: italic;
+  }
+  
+  .curatorial-text, .artworks {
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  .artwork {
+    background-color: #fff;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .artwork img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffe4ec;
+    font-size: 0.9em;
+  }
+  
+  @media (max-width: 600px) {
+    body {
+      font-size: 16px;
+    }
+  
+    header h1 {
+      font-size: 24px;
+    }
+  
+    .artwork {
+      padding: 15px;
+    }
+  }  
